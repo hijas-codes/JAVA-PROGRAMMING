@@ -15,15 +15,15 @@ public class product
 	    }  
 	    static void findLowest(double price1,double price2, double price3){
 	    if(price1<=price2 && price1<=price3){
-	        System.out.println("\nProduct 1 is of the lowest price!");
+	        System.out.println("\nmonitor is of the lowest price!");
 	        
 	    }
 	    else if(price2<=price1 && price2<=price3){
-	        System.out.println("\nProduct 2 is of the lowest price!");
+	        System.out.println("\nmouse is of the lowest price!");
 	        
 	    }
 	    else{
-	        System.out.println("\nProduct 3 is of the lowest price!");
+	        System.out.println("\ncpu is of the lowest price!");
 	        
 	    }
 	    
@@ -32,9 +32,9 @@ public class product
 	        product obj1 = new product();
 	        product obj2 = new product();
 	        product obj3 = new product();
-	        obj1.data(101,"Product_1",800.0);
-	        obj2.data(102,"Product_2",138.40);
-	        obj3.data(103,"Product_3",680.00);
+	        obj1.data(101,"monitor",800.0);
+	        obj2.data(102,"mouse",138.40);
+	        obj3.data(103,"cpu",680.00);
 	        System.out.println("Product Information:\n Product_Code\tProduct_Name\tProduct_Price");
 	        obj1.display();
 	        obj2.display();
